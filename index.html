@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập HTML - Thiết kế Web</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        h1 {
+            text-align: center;
+            color: white;
+            font-size: 36px;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .subtitle {
+            text-align: center;
+            color: rgba(255,255,255,0.9);
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+        .exercise-list {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        .exercise-item {
+            margin: 20px 0;
+            padding: 20px;
+            border-left: 5px solid #4CAF50;
+            background: linear-gradient(to right, #f9f9f9, #ffffff);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .exercise-item:hover {
+            transform: translateX(10px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            border-left-color: #2196F3;
+        }
+        .exercise-item a {
+            text-decoration: none;
+            color: #1976D2;
+            font-size: 20px;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 8px;
+        }
+        .exercise-item a:hover {
+            color: #0D47A1;
+        }
+        .exercise-item p {
+            color: #666;
+            font-size: 15px;
+            line-height: 1.5;
+        }
+        .exercise-number {
+            display: inline-block;
+            width: 35px;
+            height: 35px;
+            background: #4CAF50;
+            color: white;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 35px;
+            font-weight: bold;
+            margin-right: 10px;
+            font-size: 16px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            color: white;
+            font-size: 14px;
+        }
+        .footer a {
+            color: white;
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 28px;
+            }
+            .exercise-list {
+                padding: 20px;
+            }
+            .exercise-item {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎓 Bài tập Thiết kế và Lập trình Web</h1>
+        <p class="subtitle">Chương 2: Ngôn ngữ HTML</p>
+        
+        <div class="exercise-list">
+            <div class="exercise-item">
+                <a href="ex01.htm">
+                    <span class="exercise-number">2.1</span>
+                    Du lịch Bạc Liêu
+                </a>
+                <p>Thiết kế trang web đơn giản với font chữ Tahoma, Times New Roman và màu sắc cơ bản</p>
+            </div>
+            
+            <div class="exercise-item">
+                <a href="ex02.htm">
+                    <span class="exercise-number">2.2</span>
+                    Chương trình đào tạo CNTT
+                </a>
+                <p>Trang web giới thiệu chương trình học với nhiều font chữ và màu sắc khác nhau</p>
+            </div>
+            
+            <div class="exercise-item">
+                <a href="ex03.htm">
+                    <span class="exercise-number">2.3</span>
+                    Thông báo tuyển sinh
+                </a>
+                <p>Trang thông báo tuyển sinh chính thức của trường đại học</p>
+            </div>
+            
+            <div class="exercise-item">
+                <a href="ex04.htm">
+                    <span class="exercise-number">2.4</span>
+                    Form đăng ký xét tuyển
+                </a>
+                <p>Form đăng ký với các thành phần: Textbox, Radio button</p>
+            </div>
+            
+            <div class="exercise-item">
+                <a href="ex05.htm">
+                    <span class="exercise-number">2.5</span>
+                    Phiếu đăng ký dự thi thể thao
+                </a>
+                <p>Form phức tạp với Textbox, Password, Checkbox, Select box và Button</p>
+            </div>
+            
+            <div class="exercise-item">
+                <a href="ex06.htm">
+                    <span class="exercise-number">2.6</span>
+                    Bảng tiền thưởng
+                </a>
+                <p>Bảng dữ liệu và các công thức hóa học với ký tự chỉ số trên/dưới</p>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>💻 Trường Đại học Bạc Liêu - Khoa Kỹ thuật và Công nghệ</p>
+            <p style="margin-top: 5px;">Bài tập thực hành HTML cơ bản</p>
+        </div>
+    </div>
+</body>
+</html>
